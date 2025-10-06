@@ -1,0 +1,77 @@
+/* 大枠 */
+.quiz__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+/* 問題文枠 */
+.question {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 550px;
+    border-radius: 3px;
+    background: #000;
+    text-align: center;
+}
+
+/* 問題説明文・問題文 */
+.question__text {
+    color: #fff;
+    text-align: left;
+}
+
+/* 回答選択部分大枠（回答・送信ボタン含む） */
+.quiz-form {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 550px;
+    text-align: center;
+}
+
+/* 選択肢枠 */
+.quiz-form__item {
+    margin-bottom: 30px;
+}
+
+/* 選択肢１つ分枠 */
+.quiz-form__group {
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/* ラジオボタン設定 */
+.quiz-form__radio {
+    display: none;
+}
+
+/* 選択したときにinputタグの色が変わるように設定 */
+.quiz-form__radio:checked+label {
+    background: #ddd;
+}
+
+/* 選択肢内容 */
+.quiz-form__label {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* 回答ボタン枠 */
+.quiz-form__button {
+    width: 550px;
+}
+
+/* 回答ボタン */
+.quiz-form__button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
